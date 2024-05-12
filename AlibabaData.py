@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 
 # Provide the search address of any products in Alibaba site
-ALIBABA_WEBSITE = 'https://www.alibaba.com/trade/search?spm=a2700.galleryofferlist.pageModule_fy23_pc_search_bar.keydown__Enter&tab=all&searchText=skipping+rope'
+ALIBABA_WEBSITE = 'https://www.alibaba.com/trade/search?spm=a2700.galleryofferlist.the-new-header_fy23_pc_search_bar.keydown__Enter&tab=all&SearchText=tape'
 
 driver = webdriver.Chrome()
 driver.get(ALIBABA_WEBSITE)
